@@ -12,27 +12,16 @@ body {
   width: 50px;
 }
 
-#apple {
-  order: 1
-}
-
-#bail {
-  order: 2
-}
-
-#curry {
-  order: 3
-}
-
-/* Media Query for low resolution  Tablets, Ipads */
+/* Media Query for Mobile Phones*/
 @media (max-width: 767px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-flow: column;
     justify-content: space-around;
   }
-  
-  header{
+
+  header {
+    padding: 10px;
     text-align: center;
   }
 
@@ -42,38 +31,37 @@ body {
     justify-content: space-around;
   }
 
-  .menu{
+  .menu {
     display: none;
   }
 
-  .hamburger{
+  .hamburger {
     text-align: right;
     background: rgb(86, 83, 83);
+    color: white;
+    padding: 8px;
   }
+
 
   .product {
-    background: tomato;
+    /* background: tomato; */
     padding: 5px;
+    margin: 5px;
     width: auto;
-    /* height: 75px; */
-    margin-top: 5px;
-    margin-left: 5px;
-    /* line-height: 75px; */
-    /* font-weight: bold; */
-    /* font-size: 25px; */
     text-align: center;
-    flex-grow: 2;
+    border: 2px;
+    border-color: gray;
   }
 
-  .social{
+  .social {
     display: flex;
     flex-flow: row;
     text-align: center;
     justify-content: space-around;
+    padding: 5px;
   }
 
-  .social_icon{
-    padding: 5px;
+  .social_icon {
     display: inline;
   }
 
@@ -82,17 +70,17 @@ body {
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-color: blue;
+    /* background-color: blue; */
   }
 
-  header{
+  header {
     display: flex;
     flex-flow: row;
     text-align: center;
     align-items: center;
     padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
     justify-content: space-around;
   }
 
@@ -100,58 +88,55 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: space-around;
+ 
   }
 
-  .menu{
+  .menu {
     display: none;
   }
 
-  .hamburger{
+  .hamburger {
     text-align: right;
     background: rgb(86, 83, 83);
+    color: white;
+    padding: 8px;
   }
 
   .product {
-    background: tomato;
+    /* background: tomato; */
     padding: 5px;
+    margin: 5px;
     width: auto;
-    /* height: 75px; */
-    margin-top: 5px;
-    margin-left: 5px;
-    /* line-height: 75px; */
-    /* font-weight: bold; */
-    /* font-size: 25px; */
     text-align: center;
-    flex-grow: 2;
   }
 
-  .social{
+  .social {
     display: flex;
     flex-flow: row;
     text-align: center;
     justify-content: space-around;
+    padding: 5px;
   }
 
-  .social_icon{
-    padding: 5px;
+  .social_icon {
     display: inline;
   }
 }
 
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1025px){
+@media (min-width: 1025px) {
   body {
-    background-color: green;
+    /* background-color: green; */
   }
 
-  header{
+  header {
     display: flex;
     flex-flow: row;
     text-align: center;
     align-items: center;
     padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
     justify-content: space-around;
   }
 
@@ -161,51 +146,40 @@ body {
     justify-content: space-around;
   }
 
-  .navbar{
-    display:flex;
-    flex-flow: row-reverse;
-    text-align: center;
-    background: rgb(86, 83, 83);
-    align-items: center;
-    padding: 1px;
-  }
-
-  .menu{
-    background: rgb(86, 83, 83);
+  .navbar {
     display: flex;
+    flex-flow: row-reverse;
+    background: rgb(86, 83, 83);
+    color: white;
   }
 
   ul.menu li {
     display: inline;
-    padding-left: 2px;
-    padding-right: 2px;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-  .hamburger{
-    text-align: right;
-    display: flex;
-    padding-left: 5px;
+  .hamburger {
+    display: none;
   }
 
   .product {
-    background: tomato;
+    /* background: tomato; */
     padding: 5px;
-    width: 300;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin: 5px;
     text-align: center;
-    justify-content: space-around;
+    width: 32%;
   }
 
-  .social{
+  .social {
     display: flex;
     flex-flow: row;
     text-align: center;
     justify-content: space-around;
+    padding: 5px;
   }
 
-  .social_icon{
-    padding: 5px;
+  .social_icon {
     display: inline;
   }
 }
