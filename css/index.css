@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin-top: 10px;
   }
 
   .product {
@@ -48,7 +49,7 @@ body {
     margin: 5px;
     width: 90;
     text-align: center;
-    
+    border: 2px solid rgb(215, 212, 212);
   }
 
   .social {
@@ -57,9 +58,11 @@ body {
     text-align: center;
     justify-content: space-around;
     padding: 5px;
+    border-top: 2px solid rgb(215, 212, 212);
   }
 
   .social_icon {
+    margin-top: 15px;
     display: inline;
   }
 
@@ -97,6 +100,7 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin-top: 15px;
   }
 
   .product {
@@ -105,6 +109,7 @@ body {
     margin: 5px;
     text-align: center;
     width: 80%;
+    border: 2px solid rgb(215, 212, 212);
   }
 
   .social {
@@ -113,9 +118,11 @@ body {
     text-align: center;
     justify-content: space-around;
     padding: 5px;
+    border-top: 2px solid rgb(215, 212, 212);
   }
 
   .social_icon {
+    margin-top: 15px;
     display: inline;
   }
 }
@@ -158,6 +165,7 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    margin-top: 25px;
   }
 
   .product {
@@ -165,7 +173,8 @@ body {
     padding: 5px;
     margin: 5px;
     text-align: center;
-    width: 25%;
+    width: 30%;
+    border: 2px solid rgb(215, 212, 212);
   }
 
   .social {
@@ -174,9 +183,11 @@ body {
     text-align: center;
     justify-content: space-around;
     padding: 5px;
+    border-top: 2px solid rgb(215, 212, 212);
   }
 
   .social_icon {
+    margin-top: 15px;
     display: inline;
   }
 }
