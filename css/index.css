@@ -73,11 +73,7 @@ body {
   }
 
   .social_icon{
-    background: tomato;
-    width: 20px;
     padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
     display: inline;
   }
 
@@ -97,6 +93,12 @@ body {
     padding: 5px;
     margin-top: 5px;
     margin-left: 5px;
+    justify-content: space-around;
+  }
+
+  main {
+    display: flex;
+    flex-flow: column;
     justify-content: space-around;
   }
 
@@ -131,11 +133,7 @@ body {
   }
 
   .social_icon{
-    background: tomato;
-    width: 20px;
     padding: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
     display: inline;
   }
 }
@@ -145,11 +143,69 @@ body {
   body {
     background-color: green;
   }
+
+  header{
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    justify-content: space-around;
+  }
+
+  main {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .navbar{
+    display:flex;
+    flex-flow: row-reverse;
+    text-align: center;
+    background: rgb(86, 83, 83);
+    align-items: center;
+    padding: 1px;
+  }
+
+  .menu{
+    background: rgb(86, 83, 83);
+    display: flex;
+  }
+
+  ul.menu li {
+    display: inline;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
-  body {
-    background-color: white;
+  .hamburger{
+    text-align: right;
+    display: flex;
+    padding-left: 5px;
+  }
+
+  .product {
+    background: tomato;
+    padding: 5px;
+    width: 300;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .social{
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .social_icon{
+    padding: 5px;
+    display: inline;
   }
 }
