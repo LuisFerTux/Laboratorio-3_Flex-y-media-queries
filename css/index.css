@@ -56,6 +56,15 @@ main {
     text-align: center;
   }
 
+  .menu{
+    display: none;
+  }
+
+  .hamburger{
+    text-align: right;
+    background: rgb(86, 83, 83);
+  }
+
   .social{
     display: flex;
     flex-flow: row;
