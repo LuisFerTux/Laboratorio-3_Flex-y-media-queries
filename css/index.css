@@ -25,12 +25,6 @@ body {
     text-align: center;
   }
 
-  main {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-  }
-
   .menu {
     display: none;
   }
@@ -42,15 +36,19 @@ body {
     padding: 8px;
   }
 
+  main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
 
   .product {
     /* background: tomato; */
     padding: 5px;
     margin: 5px;
-    width: auto;
+    width: 90;
     text-align: center;
-    border: 2px;
-    border-color: gray;
+    
   }
 
   .social {
@@ -79,16 +77,9 @@ body {
     text-align: center;
     align-items: center;
     padding: 5px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     justify-content: space-around;
-  }
-
-  main {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
- 
   }
 
   .menu {
@@ -102,12 +93,18 @@ body {
     padding: 8px;
   }
 
+  main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
   .product {
     /* background: tomato; */
     padding: 5px;
     margin: 5px;
-    width: auto;
     text-align: center;
+    width: 80%;
   }
 
   .social {
@@ -135,14 +132,8 @@ body {
     text-align: center;
     align-items: center;
     padding: 5px;
-    margin-left: 30%;
-    margin-right: 30%;
-    justify-content: space-around;
-  }
-
-  main {
-    display: flex;
-    flex-flow: row;
+    margin-left: 25%;
+    margin-right: 25%;
     justify-content: space-around;
   }
 
@@ -156,11 +147,17 @@ body {
   ul.menu li {
     display: inline;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
   .hamburger {
     display: none;
+  }
+
+  main {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
   }
 
   .product {
@@ -168,7 +165,7 @@ body {
     padding: 5px;
     margin: 5px;
     text-align: center;
-    width: 32%;
+    width: 25%;
   }
 
   .social {
